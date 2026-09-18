@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio de Alan Muñoz Cabello – Estudiante de Ingeniería Civil en Computación en la Universidad de Talca. Desarrollador backend apasionado por sistemas integrados, automatización e IA." />
+  <meta name="keywords" content="Alan Muñoz, portafolio, backend, Python, Java, FastAPI, PostgreSQL, Universidad de Talca, ingeniería computación" />
+  <meta property="og:title" content="Alan Muñoz Cabello | Portafolio" />
+  <meta property="og:description" content="Desarrollador backend – Ingeniería Civil en Computación, Universidad de Talca." />
+  <title>Alan Muñoz Cabello | Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">Alan<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#proyectos" id="nav-proyectos">Proyectos</a></li>
+      <li><a href="#sobre-mi" id="nav-sobre">Sobre mí</a></li>
+      <li><a href="#tecnologias" id="nav-tech">Tecnologías</a></li>
+      <li><a href="#contacto" id="nav-contacto">Contacto</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hola, soy</p>
+        <h1 class="hero-name">Alan Muñoz<br /><span>Cabello</span></h1>
+        <p class="hero-tagline">Estudiante de Ing. Civil en Computación<br />
+          <span class="hero-uni">Universidad de Talca</span>
+        </p>
+        <div class="hero-actions">
+          <a href="cv.pdf" class="btn-primary" id="btn-cv" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Descargar CV
+          </a>
+          <div class="hero-socials">
+            <a href="https://github.com/alanmunozcabello" target="_blank" rel="noopener" id="social-github" class="social-link" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/alan-mu%C3%B1oz-cabello-76a1482a2/" target="_blank" rel="noopener" id="social-linkedin" class="social-link" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-glow"></div>
+        <img src="profile.png" alt="Foto de perfil de Alan Muñoz Cabello" class="hero-photo" id="hero-photo" />
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ========== SOBRE MÍ ========== -->
+  <section class="section" id="sobre-mi">
+    <div class="container">
+      <h2 class="section-title"><span>Sobre mí</span></h2>
+      <div class="about-body">
+        <p class="about-text">
+          Soy un desarrollador backend apasionado por la planificación y el desarrollo de sistemas integrados, la automatización y la arquitectura de software. Me entusiasma enormemente explorar la intersección entre la tecnología y la innovación práctica, especialmente en áreas como la <strong>inteligencia artificial aplicada a la agricultura y la medicina</strong>. Disfruto diseñar soluciones robustas y eficientes que conecten el software con el mundo real y buscando siempre optimizar procesos con ayuda de la inteligencia artificial.
+        </p>
+        <div class="about-divider"></div>
+        <p class="about-text">
+          Actualmente curso el tercer año de Ingeniería Civil en Computación en la Universidad de Talca. A lo largo de mi formación, he consolidado mis habilidades técnicas y metodológicas liderando proyectos como <strong>Scrum Master</strong> y diseñador-desarrollador de plataformas complejas como <em>AtmosphericLettuce</em>, un sistema de gestión agrícola integrado con IA para la detección de enfermedades. Desde la optimización de algoritmos como <strong>Minimax</strong> en proyectos interactivos hasta la implementación de flujos de trabajo ágiles en equipos de desarrollo, he aprendido a valorar la estructura, la escalabilidad y la organización en cada línea de código.
+        </p>
+        <div class="about-divider"></div>
+        <p class="about-text">
+          Fuera del desarrollo, dedico mis tiempos libres a mi hobbies, explorando el trading financiero y expandir mis conocimientos leyendo artículos científico-computacionales. También disfruto entrenar en el gimnasio, jugar videojuegos, ver vida silvestre y, sobre todo, compartir tiempo de calidad junto a mi familia.
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROYECTOS ========== -->
+  <section class="section" id="proyectos">
+    <div class="container">
+      <h2 class="section-title"><span>Proyectos Destacados</span></h2>
+      <div class="carousel-wrapper">
+        <button class="carousel-btn prev" id="carousel-prev" aria-label="Anterior">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div class="carousel-track-container" id="carousel-track-container">
+          <div class="carousel-track" id="carousel-track">
+
+            <!-- Proyecto 1: AtmosphericLettuce -->
+            <article class="project-card" data-project="0" id="card-atmosphericlettuce" tabindex="0" role="button" aria-label="Ver proyecto AtmosphericLettuce">
+              <div class="card-img-wrap">
+                <img src="project_lettuce.png" alt="Dashboard de AtmosphericLettuce" class="card-img" loading="lazy"/>
+                <div class="card-overlay">
+                  <span class="card-overlay-text">Ver detalles</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">AtmosphericLettuce</h3>
+                <p class="card-desc">Sistema de gestión agrícola integrado con IA para la detección temprana de enfermedades en cultivos.</p>
+              </div>
+            </article>
+
+            <!-- Proyecto 2: Minimax -->
+            <article class="project-card" data-project="1" id="card-minimax" tabindex="0" role="button" aria-label="Ver proyecto Minimax">
+              <div class="card-img-wrap">
+                <img src="project_minimax.png" alt="Proyecto Minimax" class="card-img" loading="lazy"/>
+                <div class="card-overlay">
+                  <span class="card-overlay-text">Ver detalles</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Optimización Minimax</h3>
+                <p class="card-desc">Implementación del algoritmo Minimax en un juego de super-tik-tak-toe.</p>
+              </div>
+            </article>
+
+            <!-- Proyecto 3: Placeholder -->
+            <article class="project-card" data-project="2" id="card-api" tabindex="0" role="button" aria-label="Ver proyecto REST API">
+              <div class="card-img-wrap">
+                <img src="project_placeholder.png" alt="Proyecto REST API" class="card-img" loading="lazy"/>
+                <div class="card-overlay">
+                  <span class="card-overlay-text">Ver detalles</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">REST API con FastAPI</h3>
+                <p class="card-desc">API RESTful construida con FastAPI y PostgreSQL, con autenticación JWT y documentación automática.</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+        <button class="carousel-btn next" id="carousel-next" aria-label="Siguiente">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+      <div class="carousel-dots" id="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- ========== TECNOLOGÍAS ========== -->
+  <section class="section" id="tecnologias">
+    <div class="container">
+      <h2 class="section-title"><span>Tecnologías</span></h2>
+      <div class="tech-grid">
+
+        <div class="tech-card" id="tech-python">
+          <div class="tech-icon python">
+            <svg viewBox="0 0 128 128" width="36" height="36"><path fill="#3776AB" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z"/><path fill="#FFC331" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z"/></svg>
+          </div>
+          <span class="tech-name">Python</span>
+        </div>
+
+        <div class="tech-card" id="tech-c">
+          <div class="tech-icon c">
+            <svg viewBox="0 0 128 128" width="36" height="36"><path fill="#03599c" d="M115.4 31.8c-12.2-17.5-31.9-27.4-53.5-27.4C29 4.4 3.7 29.7 3.7 60.8s25.3 56.4 58.2 56.4c21.6 0 41.3-9.9 53.5-27.4l-19.3-12.9c-7.2 10.7-19.7 17.6-34.2 17.6-21.7 0-39.7-18-39.7-39.7s18-39.7 39.7-39.7c14.5 0 27 6.9 34.2 17.6l19.3-12.9z"/></svg>
+          </div>
+          <span class="tech-name">C</span>
+        </div>
+
+        <div class="tech-card" id="tech-fastapi">
+          <div class="tech-icon fastapi">
+            <svg viewBox="0 0 128 128" width="36" height="36"><path fill="#059669" d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0zm14.3 90.2L53.7 67.4h20.6L49.7 37.8h28.6L54.7 90.2h23.6z"/></svg>
+          </div>
+          <span class="tech-name">FastAPI</span>
+        </div>
+
+        <div class="tech-card" id="tech-postgresql">
+          <div class="tech-icon postgresql">
+            <svg viewBox="0 0 128 128" width="36" height="36"><path fill="#336791" d="M93.809 92.112c.785-6.553.55-7.575 5.384-6.47l1.228.108c3.7.17 8.543-.595 11.388-1.92 6.069-2.868 9.683-7.652 3.686-6.408-13.716 2.858-14.641-1.739-14.641-1.739 14.406-21.402 20.424-48.58 15.248-55.261-14.027-17.91-38.326-9.442-38.74-9.217l-.13.023c-2.668-.553-5.654-.878-9.005-.908-6.107-.056-10.729 1.598-14.264 4.285 0 0-43.34-17.889-41.326 22.489.428 8.565 12.268 64.83 26.414 47.849 5.18-6.235 10.18-11.509 10.18-11.509 2.48 1.648 5.444 2.491 8.552 2.191l.241-.2c-.074.762-.04 1.509.097 2.394-3.64 4.06-2.568 4.772-9.83 6.27-7.353 1.52-3.032 4.226-.212 4.924 3.42.854 11.319 2.063 16.668-5.41l-.212.844c1.419 1.136 2.409 7.389 2.241 13.053-.168 5.665-.28 9.544.844 12.591 1.121 3.046 2.241 9.858 11.784 7.832 7.967-1.695 12.503-6.105 13.086-13.49z"/><path fill="#fff" d="M75.39 84.863c-.392-2.861-.399-3.274-.087-3.274l.584.107c4.56.407 10.41-1.003 13.862-2.879 5.915-3.138 9.41-7.967 3.572-6.74-13.448 2.82-15.577-.61-16.078-1.35-.09-.134-.105-.198-.08-.24l.021-.04c.042-.064.042-.064.106-.054.374.063 14.343 2.67 22.96-4.384 2.406-1.957 3.135-7.3 3.196-11.2.052-3.32-.133-6.498-.25-7.8-.048-.528-.07-.786-.011-.88l.011-.025.025-.014c.058-.031 2.016.4 3.37 4.063.776 2.097 1.356 4.673 1.706 7.665.268 2.281.39 4.82.342 7.482-.135 7.446-1.86 11.89-2.682 13.573-.254.524-.506.963-.694 1.256-.228.357-.447.57-.572.57h-.001c-.079 0-.157-.047-.232-.142-.344-.433-.572-1.47-.634-2.753-.07-1.427-.266-4.258-.547-6.26-1.228-8.689-6.032-12.082-7.025-12.657a.41.41 0 0 0-.209-.062c-.148 0-.193.108-.167.287.22 1.511 1.02 7.004.956 13.037-.028 2.618-.245 5.073-.844 6.883-.601 1.816-1.585 2.97-3.085 3.348-2.51.629-5.354-.245-7.117-2.183-.688-.762-1.158-1.63-1.395-2.565l-.047-.113zM56.11 24.188c-2.07-.198-4.315.278-5.527 1.15l-.27.2-.305-.15c-2.415-1.174-5.226-1.841-8.253-1.869-5.267-.047-9.34 1.88-12.432 4.867C23.38 34.094 20.984 42.56 22.07 52.728c.254 2.388.893 6.198 1.884 10.608 1.39 6.145 3.225 12.764 4.97 17.476 1.56 4.221 2.957 7.066 4.218 8.347.571.582 1.06.772 1.508.774.76 0 1.395-.688 2.047-2.186.864-1.978 1.637-5.376 2.215-10.117.285-2.342.499-4.858.637-7.456.245-4.655.219-9.01.03-12.053-.218-3.508-.735-5.756-.735-5.756-.007-.043-.012-.086-.012-.13 0-.228.144-.377.358-.377a.38.38 0 0 1 .204.06c.91.568 5.228 3.85 6.56 11.884.29 1.754.557 4.088.698 6.74.141 2.652.15 5.543.003 8.338a57.1 57.1 0 0 1-.547 6.007l-.024.141c-.285 1.556-.55 2.988-.537 3.836.007.418.064.695.222.816a.25.25 0 0 0 .16.054c.44 0 1.337-.714 2.482-2.405a30.34 30.34 0 0 0 1.42-2.517c.73-1.567 1.356-3.493 1.76-5.68.534-2.918.655-6.14.47-9.617-.184-3.476-.679-7.134-1.573-10.854a59.93 59.93 0 0 0-1.03-3.788c-.05-.158-.068-.3-.068-.427 0-.278.09-.443.254-.47h.004c.16-.024.358.128.557.472 2.12 3.692 4.046 8.936 5.168 14.55.668 3.352.99 6.803.96 10.107-.03 3.304-.41 6.458-1.17 9.17-.758 2.707-1.884 4.966-3.376 6.566-.94 1.01-2.018 1.782-3.196 2.271-1.181.49-2.422.71-3.705.678-2.447-.063-5.109-1.03-7.338-3.348-1.697-1.77-3.236-4.617-4.753-8.617-1.96-5.2-3.851-12.11-5.318-18.598-1.49-6.572-2.48-12.698-2.61-16.578-.487-14.696 3.905-24.43 10.747-29.91 3.513-2.825 7.542-4.466 11.54-4.83z"/></svg>
+          </div>
+          <span class="tech-name">PostgreSQL</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTO ========== -->
+  <section class="section" id="contacto">
+    <div class="container">
+      <h2 class="section-title"><span>Hablemos</span></h2>
+      <p class="contact-subtitle">¿Tienes alguna pregunta, propuesta o colaboración? No dudes en contactarme.</p>
+      <div class="contact-actions">
+        <a href="mailto:alan.munoz@example.com" class="btn-primary" id="btn-email">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Enviar mensaje
+        </a>
+        <div class="contact-socials">
+          <a href="https://github.com/alanmunozcabello" target="_blank" rel="noopener" id="contact-github" class="social-link-lg" aria-label="GitHub">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/alan-mu%C3%B1oz-cabello-76a1482a2/" target="_blank" rel="noopener" id="contact-linkedin" class="social-link-lg" aria-label="LinkedIn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">© 2026 Alan Muñoz Cabello</p>
+      <div class="footer-socials">
+        <a href="https://github.com/alanmunozcabello" target="_blank" rel="noopener" aria-label="GitHub" class="footer-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/alan-mu%C3%B1oz-cabello-76a1482a2/" target="_blank" rel="noopener" aria-label="LinkedIn" class="footer-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== MODAL DE PROYECTO ========== -->
+  <div class="modal-backdrop" id="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modal-close" aria-label="Cerrar">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="modal-body" id="modal-body">
+        <!-- Content injected by JS -->
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
