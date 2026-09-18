@@ -39,7 +39,7 @@ const projects = [
   {
     id: 'minimax',
     title: 'Gato de Gatos',
-    desc: 'Este Minimax funciona en un ambiente modificado, en donde el algoritmo sigue buscando su emjor posibilidad de ganar en su cuadrante actual, sin tener en cuenta el resto de cuadrantes. Esto puede ser una bentaja para el usuario.',
+    desc: 'El juego contiene un bot dificil, el cual está basado en el algoritmo Minimax, este funciona en un ambiente modificado en donde el algoritmo sigue buscando su mejor posibilidad de ganar en su cuadrante actual, sin tener en cuenta el resto de cuadrantes. Esto puede ser una grán ventaja para el usuario, lo cual fué inesperado.',
     tools: ['Java', 'JavaFX'],
     images: ['project_minimax_home.png', 'project_minimax_player.png', 'project_minimax_gamemode.png', 'project_minimax.png'],
     web: '',
