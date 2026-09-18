@@ -8,8 +8,8 @@ const projects = [
     id: 'atmosphericlettuce',
     title: 'AtmosphericLettuce',
     desc: 'Sistema de gestión agrícola integrado con inteligencia artificial para la detección temprana de enfermedades en cultivos. Diseñado como una plataforma full-stack que conecta datos de sensores IoT, recomendaciones y análisis de imágenes por IA y un panel de control web para agricultores.',
-    tools: ['Python', 'FastAPI', 'SQLite'],
-    images: ['project_lettuce.png'],
+    tools: ['Python', 'FastAPI', 'SQLite', 'HTML', 'CSS', 'JS'],
+    images: ['project_lettuce.png', 'project_lettuce_crops.png', 'project_lettuce_login.png', 'project_lettuce_chat.png'],
     web: 'https://atmosphericlettuce-61jw.onrender.com',
     github: '',
     contributors: [
@@ -20,30 +20,35 @@ const projects = [
     ]
   },
   {
+    id: 'redcicla',
+    title: 'RedCicla',
+    desc: 'RedCicla es un sistema creado para la empresa fictisia RedCicla, como apoyo y digitalización de procesos de reciclage como gestión de empleados, camiones, puntos de reciclage y rutas óptimas para los choferes de los camiones. El enfoque de la aplicación es la digitalización de tareas problematicas y reducción de la huella de carbono por parte de los camiones.',
+    tools: ['Dart', 'Python', 'FastAPI', 'FireBase', 'JWT', 'HTML', 'CSS', 'JS'],
+    images: ['project_redcicla.png', 'project_redcicla_map.png', 'project_redcicla_route.png', 'project_redcicla_dashboard.png'],
+    web: '',
+    github: 'https://github.com/Sebiita/Proyecto-RedCicla',
+    contributors: [
+      { name: 'Alan Muñoz', role: 'Scrum Master', initials: 'AM' },
+      { name: 'Nicolás Urbina', role: 'Product Owner', initials: 'NU' },
+      { name: 'Cristian Aliaga', role: 'Developer', initials: 'CA' },
+      { name: 'John Rojas', role: 'Developer', initials: 'JR' },
+      { name: 'Danilo Ponce', role: 'Developer', initials: 'DP' },
+      { name: 'Sebastian Ruiz', role: 'Developer', initials: 'SR' }
+    ]
+  },
+  {
     id: 'minimax',
     title: 'Optimización Minimax',
     desc: 'Este Minimax funciona en un ambiente modificado, en donde el algoritmo sigue buscando su emjor posibilidad de ganar en su cuadrante actual, sin tener en cuenta el resto de cuadrantes. Esto puede ser una bentaja para el usuario.',
-    tools: ['Java', 'JavaFX', 'Algoritmos'],
-    images: ['project_minimax.png'],
+    tools: ['Java', 'JavaFX'],
+    images: ['project_minimax_home.png', 'project_minimax_player.png', 'project_minimax_gamemode.png', 'project_minimax.png'],
     web: '',
     github: 'https://github.com/alanmunozcabello/gato_de_gatos_javafx.git',
     contributors: [
       { name: 'Alan Muñoz', role: 'Desarrollador', initials: 'AM' },
       { name: 'Cristian Aliaga', role: 'Desarrollador', initials: 'CA' }
     ]
-  },
-  // {
-  //   id: 'restapi',
-  //   title: 'REST API con FastAPI',
-  //   desc: 'API RESTful robusta construida con FastAPI y PostgreSQL, con autenticación basada en JWT, documentación automática con Swagger/OpenAPI, manejo de errores estructurado y migraciones de base de datos con Alembic. Diseñada siguiendo principios de arquitectura limpia.',
-  //   tools: ['Python', 'FastAPI', 'PostgreSQL', 'JWT', 'Alembic', 'Docker', 'Swagger'],
-  //   images: ['project_placeholder.png'],
-  //   web: '',
-  //   github: 'https://github.com/alanmunozcabello',
-  //   contributors: [
-  //     { name: 'Alan Muñoz', role: 'Desarrollador principal', initials: 'AM' },
-  //   ]
-  // },
+  }
 ];
 
 // ── Carousel ──────────────────────────────────
