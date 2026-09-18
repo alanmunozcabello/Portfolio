@@ -30,15 +30,15 @@ const projects = [
     contributors: [
       { name: 'Alan Muñoz', role: 'Scrum Master', initials: 'AM' },
       { name: 'Nicolás Urbina', role: 'Product Owner', initials: 'NU' },
-      { name: 'Cristian Aliaga', role: 'Developer', initials: 'CA' },
-      { name: 'John Rojas', role: 'Developer', initials: 'JR' },
-      { name: 'Danilo Ponce', role: 'Developer', initials: 'DP' },
-      { name: 'Sebastian Ruiz', role: 'Developer', initials: 'SR' }
+      { name: 'Cristian Aliaga', role: 'Desarrollador', initials: 'CA' },
+      { name: 'John Rojas', role: 'Desarrollador', initials: 'JR' },
+      { name: 'Danilo Ponce', role: 'Desarrollador', initials: 'DP' },
+      { name: 'Sebastian Ruiz', role: 'Desarrollador', initials: 'SR' }
     ]
   },
   {
     id: 'minimax',
-    title: 'Optimización Minimax',
+    title: 'Gato de Gatos',
     desc: 'Este Minimax funciona en un ambiente modificado, en donde el algoritmo sigue buscando su emjor posibilidad de ganar en su cuadrante actual, sin tener en cuenta el resto de cuadrantes. Esto puede ser una bentaja para el usuario.',
     tools: ['Java', 'JavaFX'],
     images: ['project_minimax_home.png', 'project_minimax_player.png', 'project_minimax_gamemode.png', 'project_minimax.png'],
