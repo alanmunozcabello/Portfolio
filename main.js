@@ -32,18 +32,18 @@ const projects = [
       { name: 'Cristian Aliaga', role: 'Desarrollador', initials: 'CA' }
     ]
   },
-  {
-    id: 'restapi',
-    title: 'REST API con FastAPI',
-    desc: 'API RESTful robusta construida con FastAPI y PostgreSQL, con autenticación basada en JWT, documentación automática con Swagger/OpenAPI, manejo de errores estructurado y migraciones de base de datos con Alembic. Diseñada siguiendo principios de arquitectura limpia.',
-    tools: ['Python', 'FastAPI', 'PostgreSQL', 'JWT', 'Alembic', 'Docker', 'Swagger'],
-    images: ['project_placeholder.png'],
-    web: '',
-    github: 'https://github.com/alanmunozcabello',
-    contributors: [
-      { name: 'Alan Muñoz', role: 'Desarrollador principal', initials: 'AM' },
-    ]
-  },
+  // {
+  //   id: 'restapi',
+  //   title: 'REST API con FastAPI',
+  //   desc: 'API RESTful robusta construida con FastAPI y PostgreSQL, con autenticación basada en JWT, documentación automática con Swagger/OpenAPI, manejo de errores estructurado y migraciones de base de datos con Alembic. Diseñada siguiendo principios de arquitectura limpia.',
+  //   tools: ['Python', 'FastAPI', 'PostgreSQL', 'JWT', 'Alembic', 'Docker', 'Swagger'],
+  //   images: ['project_placeholder.png'],
+  //   web: '',
+  //   github: 'https://github.com/alanmunozcabello',
+  //   contributors: [
+  //     { name: 'Alan Muñoz', role: 'Desarrollador principal', initials: 'AM' },
+  //   ]
+  // },
 ];
 
 // ── Carousel ──────────────────────────────────
